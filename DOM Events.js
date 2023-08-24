@@ -31,6 +31,11 @@ p.addEventListener("click",function(){
 kedua cara diatas hampir tidak memiliki perbedaan. hanya saja event handling akan menghilngkan event listener pertama kali dibuat dari event yang sama jika dibuat lebih dari satu kali. sementara method addEventListener() akan melakukan akan menjalankan dua event Listener saat dua duanya dibuat pada event yang sama.
 
 
+events sendiri merupakan sebuah object yang memuat property yang bisa kita gunakan untuk memicu event listener.
+contoh : kita bisa mengambil kode dari keyboard dll.
 
+event input dan change merupakan input yang bisa digunakan ketika kita berusan dengan form. 
+input akan memicu callback pada eventListener secara realtime.
+change akan memicu callback eventListener ketika nilai valuenya diganti.
 
 */
